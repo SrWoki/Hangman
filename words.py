@@ -1,0 +1,1 @@
+words = ['screen','tv','sun','movie','game']
