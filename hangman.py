@@ -12,8 +12,16 @@ def get_valid_word(words):
 
     return word
 
-hidden_word = set()
-hidden_word.add('-')
-for letter in get_valid_word(words):
-    print('-')
-print(set(get_valid_word(words)))
+# Display word and its length
+my_word = get_valid_word(words)
+print(my_word + '\n',len(my_word))
+
+#Desplegar guiones
+
+print("-"*len(my_word))
+
+#hidden_word = set()
+#hidden_word.add('-')
+#for letter in get_valid_word(words):
+#    print('-')
+#print(set(get_valid_word(words)))
